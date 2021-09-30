@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+
+section {
+    background-color: black;
+}
+
+/* MAIN */
+
+/* Quicktab */
+
+.containerflex-quicktab {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+}
+
+.button {
+    background-color: #373737;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff
+}
+
+/* Main Content */
+
+.containerflex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: calc(100vh - 60px);
+    margin:auto;
+}
+
+.box-image {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    border: 5px solid black;
+    color: #fff
+}
+
+.box-image>img {
+    width: 100%;
+}
